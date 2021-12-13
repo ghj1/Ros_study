@@ -13,8 +13,6 @@ if __name__ == '__main__':
     rate = rospy.Rate(10)
     while not rospy.is_shutdown():
         str = 'hello_publisher: %s' % rospy.get_time() 
-        #str_01 = 'example_pub: %s' % rospy.get_time()
         pub.publish(str) 
-        #pub.publish(str_01)
         rate.sleep() 
     pass
