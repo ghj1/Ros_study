@@ -3,8 +3,8 @@
 import rospy
 from std_msgs.msg import String  
 
-def fun():
-    pass
+def fun_callback(): 
+    pass 
 
 if __name__ == '__main__':
     rospy.init_node('sample_pub')

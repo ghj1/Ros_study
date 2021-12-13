@@ -7,7 +7,7 @@ def fun():
     pass
 
 if __name__ == '__main__':
-    rospy.init_node('sample02_pub')
+    rospy.init_node('sample_pub')
     pub_01 = rospy.Publisher('hello_ex', String, queue_size=10)  
   
     rate = rospy.Rate(10)
